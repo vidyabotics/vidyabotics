@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0A0E27;
+  --color-surface: #131A3A;
+  --color-surface-2: #1B2350;
+  --color-border-soft: #262F5C;
+  --color-primary: #4361EE;
+  --color-primary-light: #7C93FF;
+  --color-accent: #06D6A0;
+  --color-signal: #FF6B4A;
+  --color-text: #F1F3F9;
+  --color-muted: #8B92B0;
+
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-text);
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+  ::selection {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .eyebrow {
+    font-family: var(--font-mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: var(--color-accent);
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(139, 146, 176, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(139, 146, 176, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
