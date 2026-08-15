@@ -28,12 +28,12 @@ export const siteConfig = {
     whatsappNumber: "+917462022763", // REPLACE ME - country code + number, no + or spaces
     email: "synapticode.official@gmail.com", // REPLACE ME - dummy email
     address: {
-    line1: "Pachrukhi Road",
-    line2: "Tarwara",
+    line1: "",
+    line2: "",
     city: "Siwan",
     state: "Bihar",
     pincode: "841506",
-    country: "India",
+    country: "India" 
 },
     mapEmbedUrl:
       "https://www.google.com/maps?q=Tarwara,+Siwan,+Bihar&output=embed", // REPLACE ME with your exact location embed link
@@ -57,7 +57,7 @@ export const siteConfig = {
 export const formLinks = {
   enrollNow: "https://docs.google.com/forms/d/e/1FAIpQLSddkRJ_Ddo3BThizcfESiW1KSy8lQZEwiN4eJ9YqkY8r_Ed3w/viewform?usp=publish-editor",
   serviceInquiry: "https://forms.gle/REPLACE_ME_SERVICE_FORM",
-  contactGeneral: "https://forms.gle/REPLACE_ME_CONTACT_FORM",
+  contactGeneral: "https://docs.google.com/forms/d/e/1FAIpQLScbbr4rr7NLgZJ829YGBQ5ik48Rig5VsNEwRY1dZ4lzGvjvKQ/viewform?usp=publish-editor",
 };
 
 // -------------------------------------------------------------------------

@@ -94,7 +94,7 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-0.5 shrink-0 text-accent" />
                 <span>
-                  {contact.address.line1}, {contact.address.line2},<br />
+                  {/* {contact.address.line1}, {contact.address.line2},<br /> */}
                   {contact.address.city}, {contact.address.state} {contact.address.pincode}
                 </span>
               </li>

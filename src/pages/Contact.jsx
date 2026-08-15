@@ -73,7 +73,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-semibold text-text">Visit us</p>
                   <p className="text-sm text-muted">
-                    {contact.address.line1}, {contact.address.line2},<br />
+                    {/* {contact.address.line1}, {contact.address.line2},<br /> */}
                     {contact.address.city}, {contact.address.state} {contact.address.pincode},<br />
                     {contact.address.country}
                   </p>
