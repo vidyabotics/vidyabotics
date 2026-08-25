@@ -29,7 +29,7 @@ export default function Courses() {
     <>
       <SEO
         title="Course Catalog"
-        description="Browse all Synapticode courses in robotics, coding and AI — with pricing, syllabus and duration."
+        description="Browse all vidyabotics courses in robotics, coding and AI — with pricing, syllabus and duration."
       />
 
       <Section

@@ -1,6 +1,6 @@
-# Synapticode Website
+# vidyabotics Website
 
-A fast, secure, fully static React website for Synapticode — robotics, coding
+A fast, secure, fully static React website for vidyabotics — robotics, coding
 and AI education. No database, no backend, no hosting cost. You control
 everything from one file.
 

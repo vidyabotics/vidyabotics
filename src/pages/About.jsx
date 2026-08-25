@@ -16,12 +16,12 @@ export default function About() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink via-ink/95 to-ink" />
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:px-8 lg:py-24">
           <div>
-            <span className="eyebrow">ABOUT SYNAPTICODE</span>
+            <span className="eyebrow">ABOUT vidyabotics</span>
             <h1 className="mt-3 font-display text-3xl font-semibold text-text sm:text-4xl">
               Preparing Students for the Future of Technology.
             </h1>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-muted">
-              {siteConfig.name} Synapticode is a technology learning platform dedicated to helping students, schools, and
+              {siteConfig.name} vidyabotics is a technology learning platform dedicated to helping students, schools, and
                aspiring professionals build future-ready skills. Through practical training 
                in Data Analytics, Data Science, Artificial Intelligence, Coding, Python, and Robotics, 
                we make learning engaging, project-based, and industry-focused.

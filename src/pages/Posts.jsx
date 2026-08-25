@@ -10,7 +10,7 @@ export default function Posts() {
     <>
       <SEO
         title="Posts & Updates"
-        description="Latest news, events and workshop updates from Synapticode."
+        description="Latest news, events and workshop updates from vidyabotics."
       />
 
       <Section

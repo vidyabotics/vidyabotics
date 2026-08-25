@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.synapticode.dummy/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.synapticode.dummy/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.synapticode.dummy/posts</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.synapticode.dummy/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.synapticode.dummy/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses/robotics-foundations</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses/python-for-beginners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses/ai-machine-learning-jr</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses/drone-technology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses/web-dev-bootcamp</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.synapticode.dummy/courses/scratch-junior-coding</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/posts</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses/robotics-foundations</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses/python-for-beginners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses/ai-machine-learning-jr</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses/drone-technology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses/web-dev-bootcamp</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vidyabotics.dummy/courses/scratch-junior-coding</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

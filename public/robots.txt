@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.synapticode.dummy/sitemap.xml
+Sitemap: https://www.vidyabotics.dummy/sitemap.xml

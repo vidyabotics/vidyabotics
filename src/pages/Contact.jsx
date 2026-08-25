@@ -93,7 +93,7 @@ export default function Contact() {
 
           <div className="overflow-hidden rounded-2xl border border-border-soft lg:col-span-3">
             <iframe
-              title="Synapticode location"
+              title="vidyabotics location"
               src={contact.mapEmbedUrl}
               className="h-full min-h-[420px] w-full"
               style={{ border: 0 }}

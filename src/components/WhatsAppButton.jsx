@@ -11,7 +11,7 @@ export default function WhatsAppButton() {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat with Synapticode on WhatsApp"
+      aria-label="Chat with vidyabotics on WhatsApp"
       className="group fixed bottom-5 right-5 z-50 flex items-center gap-0 overflow-hidden rounded-full bg-[#25D366] text-white shadow-lg shadow-black/30 transition-all duration-300 hover:gap-2 hover:pr-4"
     >
       <span className="flex h-14 w-14 shrink-0 items-center justify-center">

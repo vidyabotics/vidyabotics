@@ -1,5 +1,5 @@
 // =========================================================================
-//  SYNAPTICODE — CONTROL ROOM
+//  vidyabotics — CONTROL ROOM
 //  This is the ONLY file you need to edit to update the website.
 //  Change text, prices, courses, services, reviews, contact info, and links
 //  right here — the site updates automatically.
@@ -13,11 +13,11 @@
 // 1. SITE / BRAND SETTINGS
 // -------------------------------------------------------------------------
 export const siteConfig = {
-  name: "Synapticode",
+  name: "vidyabotics",
   tagline: "Learn Today's Skills. Build Tomorrow's Future.",
   shortDescription:
     "Build in-demand technology skills with practical training in Data Analytics, AI, Data Science, Coding, and Robotics. Learn from experts, work on real projects, and prepare for the future.",
-  logoText: "Synapticode", // Used until you add a logo image file
+  logoText: "vidyabotics", // Used until you add a logo image file
   // To use an image logo instead: drop a file into /public (e.g. logo.png)
   // and set logoImage: "/logo.png"
   logoImage: "/logo.png",
@@ -26,7 +26,7 @@ export const siteConfig = {
     phoneDisplay: "+91 7462022763", // REPLACE ME - dummy number
     phoneDial: "+91 74620222763", // REPLACE ME - used for tel: links, no spaces
     whatsappNumber: "+917462022763", // REPLACE ME - country code + number, no + or spaces
-    email: "synapticode.official@gmail.com", // REPLACE ME - dummy email
+    email: "vidyabotics@gmail.com", // REPLACE ME - dummy email
     address: {
     line1: "",
     line2: "",
@@ -40,16 +40,39 @@ export const siteConfig = {
   },
 
   socials: {
-    instagram: "https://instagram.com/synapticode", // REPLACE ME
-    youtube: "https://youtube.com/@synapticode", // REPLACE ME
-    linkedin: "https://www.linkedin.com/company/synapticode/about/?viewAsMember=true", // REPLACE ME
-    facebook: "https://facebook.com/synapticode", // REPLACE ME
+    instagram: "https://instagram.com/vidyabotics", // REPLACE ME
+    youtube: "https://youtube.com/@vidyabotics", // REPLACE ME
+    linkedin: "https://www.linkedin.com/company/vidyabotics/about/?viewAsMember=true", // REPLACE ME
+    facebook: "https://facebook.com/vidyabotics", // REPLACE ME
   },
 
   // Default WhatsApp click-to-chat starter message
   whatsappDefaultMessage:
-    "Hi Synapticode! I'd like to know more about your courses.",
+    "Hi vidyabotics! I'd like to know more about your courses.",
 };
+
+
+
+export const heroImages = [
+  {
+    src: "/images/robotics.png",
+    alt: "Students learning robotics",
+  },
+  {
+    src: "/images/coding.png",
+    alt: "Students learning coding",
+  },
+  {
+    src: "/images/ai-learning.png",
+    alt: "Students learning artificial intelligence",
+  },
+  {
+    src: "/images/data-analytics.png",
+    alt: "Students learning data analytics",
+  },
+];
+
+
 
 // -------------------------------------------------------------------------
 // 2. GOOGLE FORM LINKS  (Enroll Now / Service Inquiry)
@@ -119,24 +142,92 @@ export const courses = [
 
   {
     id: "python-beginners",
-    title: "Python for Beginners",
+    title: "Python for Beginners to Advanced",
     ageGroup: "Students & Beginners",
     category: "Programming",
-    price: null,
-    originalPrice: null,
+    price: 699,
+    originalPrice: 2999,
     duration: "12 Weeks",
     mode: "Online",
-    tags: ["Coming Soon"],
+    tags: ["Beginner Friendly"],
     shortDescription:
       "Learn Python programming from scratch through practical exercises, coding challenges, and real-world mini projects.",
-    syllabus: [
-      "Python Basics",
-      "Variables & Data Types",
-      "Loops & Functions",
-      "Lists, Tuples & Dictionaries",
-      "File Handling",
-      "Mini Projects",
-    ],
+   syllabus: [
+  // Python Basics
+  "Introduction to Python",
+  "Python Installation & Setup",
+  "Variables & Data Types",
+  "Input & Output",
+  "Operators & Type Casting",
+  "Strings & String Methods",
+
+  // Conditions & Loops
+  "Conditional Statements",
+  "For & While Loops",
+  "Break, Continue & Pass",
+  "Nested Loops & Pattern Problems",
+
+  // Data Structures
+  "Lists & List Methods",
+  "Tuples",
+  "Sets & Set Operations",
+  "Dictionaries",
+  "List & Dictionary Comprehensions",
+
+  // Functions
+  "Functions & Return Values",
+  "Function Parameters & Arguments",
+  "Scope & Local/Global Variables",
+  "*args & **kwargs",
+  "Lambda Functions",
+  "Map, Filter & Reduce",
+
+  // Files & Errors
+  "File Handling",
+  "CSV & JSON Files",
+  "Exception Handling",
+  "Custom Exceptions",
+
+  // OOP
+  "Object-Oriented Programming",
+  "Classes & Objects",
+  "Constructors",
+  "Instance & Class Methods",
+  "Inheritance",
+  "Polymorphism",
+  "Encapsulation & Abstraction",
+  "Dunder Methods",
+
+  // Intermediate Python
+  "Modules & Packages",
+  "Virtual Environments & Pip",
+  "Datetime & Random Modules",
+  "Iterators & Iterables",
+  "Generators",
+  "Decorators & Closures",
+  "Regular Expressions",
+
+  // Advanced Python
+  "APIs & JSON Data",
+  "Context Managers",
+  "Debugging & Logging",
+  "Unit Testing with Pytest",
+  "Concurrency & Async Programming",
+  "Python Performance & Best Practices",
+
+  // Data & Career
+  "NumPy Basics",
+  "Pandas Basics",
+  "Data Visualization with Matplotlib",
+  "SQL with Python",
+  "Git & GitHub Basics",
+
+  // Projects
+  "Beginner Coding Projects",
+  "Intermediate Python Projects",
+  "Real-World Python Project",
+  "Final Capstone Project",
+],
     image: null,
   },
 
@@ -355,7 +446,7 @@ export const services = [
 export const posts = [
   {
     id: "post-1",
-    title: "Introducing Synapticode — A journey towards future-ready technology learning",
+    title: "Introducing vidyabotics — A journey towards future-ready technology learning",
     date: "2026-07-26",
     excerpt:
       "We are excited to begin our journey of making technology learning practical and accessible through AI, Data Science, Coding, Robotics, and emerging technologies.",
@@ -392,7 +483,7 @@ export const reviews = [
     role: "Partner Institution",
     rating: 5,
     text:
-      "Setting up our STEM lab with Synapticode was seamless — from planning to instructor training, the whole process was professional and well organized.",
+      "Setting up our STEM lab with vidyabotics was seamless — from planning to instructor training, the whole process was professional and well organized.",
     approved: true,
   },
   {

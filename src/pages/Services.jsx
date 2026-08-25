@@ -116,7 +116,7 @@ export default function Services() {
 //       <Section className="pb-24">
 //         <div className="rounded-3xl border border-border-soft bg-surface px-8 py-14 text-center">
 //           <h2 className="font-display text-2xl font-semibold text-text sm:text-3xl">
-//             Partner with Synapticode
+//             Partner with vidyabotics
 //           </h2>
 
 //           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted">
