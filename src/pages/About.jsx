@@ -21,7 +21,7 @@ export default function About() {
               Preparing Students for the Future of Technology.
             </h1>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-muted">
-              {siteConfig.name} vidyabotics is a technology learning platform dedicated to helping students, schools, and
+              {siteConfig.name} is a technology learning platform dedicated to helping students, schools, and
                aspiring professionals build future-ready skills. Through practical training 
                in Data Analytics, Data Science, Artificial Intelligence, Coding, Python, and Robotics, 
                we make learning engaging, project-based, and industry-focused.
