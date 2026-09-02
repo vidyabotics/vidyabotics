@@ -23,9 +23,9 @@ export const siteConfig = {
   logoImage: "/logo.png",
 
   contact: {
-    phoneDisplay: "+91 7462022763", // REPLACE ME - dummy number
-    phoneDial: "+91 74620222763", // REPLACE ME - used for tel: links, no spaces
-    whatsappNumber: "+917462022763", // REPLACE ME - country code + number, no + or spaces
+    phoneDisplay: "+91 9608396491", // REPLACE ME - dummy number
+    phoneDial: "+91 9608396491", // REPLACE ME - used for tel: links, no spaces
+    whatsappNumber: "+919608396491", // REPLACE ME - country code + number, no + or spaces
     email: "vidyabotics@gmail.com", // REPLACE ME - dummy email
     address: {
     line1: "",
@@ -208,19 +208,19 @@ export const courses = [
   "Regular Expressions",
 
   // Advanced Python
-  "APIs & JSON Data",
-  "Context Managers",
-  "Debugging & Logging",
-  "Unit Testing with Pytest",
-  "Concurrency & Async Programming",
-  "Python Performance & Best Practices",
+  // "APIs & JSON Data",
+  // "Context Managers",
+  // "Debugging & Logging",
+  // "Unit Testing with Pytest",
+  // "Concurrency & Async Programming",
+  // "Python Performance & Best Practices",
 
   // Data & Career
-  "NumPy Basics",
-  "Pandas Basics",
-  "Data Visualization with Matplotlib",
-  "SQL with Python",
-  "Git & GitHub Basics",
+  // "NumPy Basics",
+  // "Pandas Basics",
+  // "Data Visualization with Matplotlib",
+  // "SQL with Python",
+  // "Git & GitHub Basics",
 
   // Projects
   "Beginner Coding Projects",
