@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.vidyabotics.dummy/sitemap.xml
+Sitemap: https://vidyabotics.vercel.app/sitemap.xml
