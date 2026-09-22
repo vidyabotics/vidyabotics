@@ -244,7 +244,7 @@ export function generateSyllabusPdf(course){
 
 
   doc.text(
-    "COURSE SYLLABUS",
+    "COURSE Syllabus",
     MARGIN,
     y
   );
@@ -481,12 +481,12 @@ export function generateSyllabusPdf(course){
 
 
 
-  const syllabus =
-    course.syllabus || [];
+  const Syllabus =
+    course.Syllabus || [];
 
 
 
-  syllabus.forEach(
+  Syllabus.forEach(
     (item,index)=>{
 
 
